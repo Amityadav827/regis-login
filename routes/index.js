@@ -18,7 +18,6 @@ const authenticateToken = (req, res, next) => {
     req.user = decoded;
     next();
   });
-  g;
 };
 
 router.post("/registeration", userController.registeration);
